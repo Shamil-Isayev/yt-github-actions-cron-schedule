@@ -7,7 +7,7 @@ port = 465
 smtp_server = "smtp.gmail.com"
 SENDER_EMAIL = os.environ.get('USER_EMAIL')
 SENDER_PASSWORD = os.environ.get('USER_PASSWORD')
-RECIPIENT_EMAIL = "Shamil.Isayev@consultant.kkr.com"
+RECIPIENT_EMAIL = os.environ.get('RECIPIENT_EMAIL')
 message = """\
 Subject: GitHub Email Report
 
