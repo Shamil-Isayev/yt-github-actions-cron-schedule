@@ -17,5 +17,5 @@ jobs:
         env:
           USER_EMAIL: ${{ secrets.USER_EMAIL }}
           USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
-          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          RECIPIE_EMAIL: ${{ secrets.RECIPIE_EMAIL }}
         run: python send_email.py
